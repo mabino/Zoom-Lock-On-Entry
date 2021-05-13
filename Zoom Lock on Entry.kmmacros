@@ -48,7 +48,18 @@
 								<key>Path</key>
 								<string></string>
 								<key>Text</key>
-								<string>tell application "System Events" to tell process "zoom.us"	delay 1	tell window 1		tell splitter group 1			tell scroll area 1				tell table 1					set rowCount to count of row				end tell			end tell		end tell	end tellend tell</string>
+								<string>tell application "System Events" to tell process "zoom.us"
+	delay 1
+	tell window 1
+		tell splitter group 1
+			tell scroll area 1
+				tell outline 1
+					set rowCount to count of row
+				end tell
+			end tell
+		end tell
+	end tell
+end tell</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 								<key>TrimResults</key>
@@ -156,7 +167,20 @@
 												<key>Path</key>
 												<string></string>
 												<key>Text</key>
-												<string>tell application "System Events" to tell process "zoom.us"	delay 1	tell window 1		tell splitter group 1			click button 4			delay 1			tell button 4				tell menu 1					click menu item "Lock Meeting"				end tell			end tell		end tell	end tellend tell</string>
+												<string>tell application "System Events" to tell process "zoom.us"
+	delay 1
+	tell window 1
+		tell splitter group 1
+			click button 4
+			delay 1
+			tell button 4
+				tell menu 1
+					click menu item "Lock Meeting"
+				end tell
+			end tell
+		end tell
+	end tell
+end tell</string>
 												<key>TimeOutAbortsMacro</key>
 												<true/>
 												<key>TrimResults</key>
@@ -187,7 +211,20 @@
 										<key>Path</key>
 										<string></string>
 										<key>Text</key>
-										<string>tell application "System Events" to tell process "zoom.us"	delay 1	tell window 1		tell splitter group 1			click button 4			delay 1			tell button 4				tell menu 1					click menu item "Lock Meeting"				end tell			end tell		end tell	end tellend tell</string>
+										<string>tell application "System Events" to tell process "zoom.us"
+	delay 1
+	tell window 1
+		tell splitter group 1
+			click button 4
+			delay 1
+			tell button 4
+				tell menu 1
+					click menu item "Lock Meeting"
+				end tell
+			end tell
+		end tell
+	end tell
+end tell</string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 										<key>TrimResults</key>
